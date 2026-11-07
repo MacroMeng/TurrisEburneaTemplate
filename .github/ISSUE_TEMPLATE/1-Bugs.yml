@@ -80,13 +80,13 @@ body:
         4. 触发 Bug。
     validations:
       required: true
-  - type: textarea
-    id: logs
+  - type: upload
     attributes:
       label: 日志文件
       description: |
-        请将日志压缩包拖拽到本输入框内上传，或使用 Ctrl（macOS 为 Command）+ V 粘贴。
-      placeholder: 拖拽文件到此处……
+        上传项目的日志文件。日志能更直接的帮助开发者定位问题。
+
+        若可以正常打开项目，请 [REPLACE] 导出日志压缩包并上传；若不能正常打开，请 [REPLACE] 找到日志并将其打包成压缩包上传。
     validations:
         required: false
   - type: textarea
@@ -115,7 +115,7 @@ body:
     id: agreement
     attributes:
       label: 协议
-      description: 在提交 Issue 前，确保你完整阅读并了解了你享有的权利与应承担的义务、与开发者享有的权利与义务，
+      description: 在提交 Issue 前，确保你完整阅读并了解了你享有的权利与应承担的义务、与开发者享有的权利与义务。
       options:
         - label: 我已经通读或至少了解了 [许可协议](https://github.com/MacroMeng/TurrisEburneaTemplate/blob/[REPLACE][BRANCH]/LICENSE)。我了解我享有的权利与应承担的义务、与开发者享有的权利与义务。
           required: true
