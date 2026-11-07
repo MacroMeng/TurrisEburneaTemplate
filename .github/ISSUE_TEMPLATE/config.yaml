@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+- name: GitHub 讨论区
+  url: https://github.com/TurrisEburneaTemplate/discussions
+  about: 前往本仓库的 GitHub 讨论区，查看 Q&As、提交有疑问的项目，或者向社区征求意见。
+- name: 向维护者咨询
+  url: mailto:meng-yc@outlook.com
+  about: 向维护者发送电子邮件，咨询更私密的事件。

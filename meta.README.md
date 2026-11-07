@@ -21,9 +21,12 @@ MacrosMeng 自用仓库模板，包含 README、Issue / PR 模板等内容。本
 4. 参照 [Example: ] 中的示例撰写。
 5. 替换 [REPLACE THIS] 中需要替换的内容。
 6. 删除此 meta.README.md。
-7. 替换 LICENSE。
-8. 添加 .gitignore。
-9. 开始编码。
+7. 按照需求，编辑 Issue Templates 和 PR Templates。
+   - 至少包含 `Bug`, `New` 的 Issue Label。
+   - 至少包含 `Bug`, `Feat` 的 Issue Type。
+8. 替换 LICENSE。
+9.  添加 .gitignore。
+10. 开始编码。
 
 ## 协议
 
