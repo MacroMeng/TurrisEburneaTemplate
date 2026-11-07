@@ -26,7 +26,7 @@ body:
       options:
         - label: 我已经在 [Issues](https://github.com/MacroMeng/TurrisEburneaTemplate/issues?q=type%3ABug) 中检索过，确保没有相似的 Issue 已经被提交。
           required: true
-        - label: 我已经检查过最新的 [提交信息](https://github.com/MacroMeng/TurrisEburneaTemplate/[REPALCE][BRANCH NAME]/commits)，并确认了这个问题还没有被较新的提交修复。
+        - label: 我已经检查过最新的 [提交信息](https://github.com/MacroMeng/TurrisEburneaTemplate/[REPLACE][BRANCH NAME]/commits)，并确认了这个问题还没有被较新的提交修复。
           required: false
         - label: 我通读了 [常见问题]([REPLACE][FAQs URI])，确保它没有已供的解决方案。
           required: true
@@ -80,15 +80,15 @@ body:
         4. 触发 Bug。
     validations:
       required: true
-  - type: upload
+  - type: textarea
+    id: logs
     attributes:
       label: 日志文件
       description: |
-        上传项目的日志文件。日志能更直接的帮助开发者定位问题。
-
-        若可以正常打开项目，请 [REPLACE] 导出日志压缩包并上传；若不能正常打开，请 [REPLACE] 找到日志并将其打包成压缩包上传。
+        请将日志压缩包拖拽到本输入框内上传，或使用 Ctrl（macOS 为 Command）+ V 粘贴。
+      placeholder: 拖拽文件到此处……
     validations:
-      accepted: ".zip,.rar,.7z,.gz,.tz,.tar"
+        required: false
   - type: textarea
     attributes:
       label: 错误详情与诊断信息
@@ -112,7 +112,7 @@ body:
         - label: 我了解如果我没有按照要求填写表单，它可能会被无条件关闭。
           required: true
   - type: checkboxes
-    id: checklist
+    id: agreement
     attributes:
       label: 协议
       description: 在提交 Issue 前，确保你完整阅读并了解了你享有的权利与应承担的义务、与开发者享有的权利与义务，
