@@ -53,6 +53,7 @@ MacrosMeng 自用仓库模板，包含 README、Issue / PR 模板等内容。前
 - 从 [Releases 页面](https://github.com/MacroMeng/TurrisEburneaTemplate/releases) 下载适用于你的操作系统的安装包 / 压缩包。
   - 比如，你使用 Windows 11 x64 操作系统，即下载 `turriseburnea-win-x64-v.0.0.0.exe` 文件。
   > [!WARNING]
+  >
   > 在运行 / 打开任何从互联网获得的文件前，我们建议你先行核对其校验和是否与下载页提供的数据相符。
 - 解压得到的压缩包。/ 启动得到的 exe 文件，按照提示操作。
 - 打开压缩包中的 `TurrisEburnea.exe` 文件，即可启动此程序。 / 安装完成后，即可从系统中启动。
@@ -178,9 +179,11 @@ A: Answer 2.
   来进行测试。
 - 完成更改后，向此仓库提交 Pull Request。
   > [!CAUTION]
+  >
   > 无意义、低质量、或批量生成的 PR 均可能会被 **不加说明的关闭**，甚至可能导致你的 GitHub 账户被本仓库拉黑。
 
 > [!INFO]
+> 
 > 有关更多参与贡献的文档，参阅 [贡献指南](CONTRIBUTING.md)。
 
 ## ⚖️ 许可、版权与引用
